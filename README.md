@@ -1,2 +1,2 @@
 # node-aws
-Docker Image with: node12, aws-cli, eb-cli
+Docker image with node12, aws-cli, eb-cli
