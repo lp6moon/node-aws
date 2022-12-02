@@ -9,7 +9,7 @@ RUN pip3 install --no-cache-dir virtualenv
 
 # install aws-cli 2
 RUN curl https://awscli.amazonaws.com/awscli-exe-linux-$(uname -m).zip -sSLo awscliv2.zip &&\
-    unzip awscliv2.zip &&\
+    unzip -qq awscliv2.zip &&\
     rm -rf awscliv2.zip &&\
     ./aws/install &&\
     aws --version
