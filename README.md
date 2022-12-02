@@ -1,6 +1,6 @@
 # node-aws
 ![docker pulls](https://flat.badgen.net/docker/pulls/lp6moon/node-aws)  
-Docker image with node v16, aws-cli v2, eb-cli
+Docker image with node v18, aws-cli v2, eb-cli v3
 
 ## mirrors for local build
 ```Dockerfile
