@@ -1,4 +1,4 @@
-FROM nikolaik/python-nodejs:python3.13-nodejs22
+FROM nikolaik/python-nodejs:python3.11-nodejs22
 
 WORKDIR /root
 
