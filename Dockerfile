@@ -2,7 +2,7 @@ FROM nikolaik/python-nodejs:python3.13-nodejs22
 
 WORKDIR /root
 
-ARG EB_VERSION=3.21.0
+ARG EB_VERSION=3.25
 
 # install virtualenv
 RUN pip3 install --no-cache-dir virtualenv
