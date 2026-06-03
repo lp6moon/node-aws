@@ -32,3 +32,5 @@ RUN --mount=type=cache,target=/root/.cache/pip,sharing=locked \
     python ./aws-elastic-beanstalk-cli-setup/scripts/ebcli_installer.py --version ${EB_VERSION} &&\
     rm -rf ./aws-elastic-beanstalk-cli-setup &&\
     eb --version
+
+CMD ["/bin/sh", "-c", "printf 'Installed tools:\\n  node    %s\\n  python  %s\\n  aws     %s\\n  eb      %s\\n' \"$(node --version)\" \"$(python --version | sed 's/^Python //')\" \"$(aws --version | sed 's/^aws-cli\\///')\" \"$(eb --version | sed 's/^EB CLI //')\""]
