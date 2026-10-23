@@ -1,4 +1,5 @@
-FROM nikolaik/python-nodejs:python3.12-nodejs24
+# Node.js 24.22.1: October 2026 security release.
+FROM nikolaik/python-nodejs:python3.12-nodejs24@sha256:34c667b8cf53c5f4bad77573ea01668e717ab70f11e4b0003632a7e5e3808d6d
 
 WORKDIR /root
 
