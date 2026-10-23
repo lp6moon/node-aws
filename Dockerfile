@@ -2,7 +2,7 @@ FROM nikolaik/python-nodejs:python3.12-nodejs24
 
 WORKDIR /root
 
-ARG EB_VERSION=3.27.2
+ARG EB_VERSION=3.27.5
 
 # install missing dependencies
 RUN --mount=type=cache,target=/var/cache/apt,sharing=locked \
